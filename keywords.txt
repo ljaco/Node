@@ -1,0 +1,162 @@
+#######################################
+# Syntax Coloring Map For Node
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Data			KEYWORD1
+RH_RF69 		KEYWORD1
+Node 			KEYWORD1
+NodeProtocol	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init			KEYWORD2
+hello         	KEYWORD2
+send          	KEYWORD2
+receive       	KEYWORD2
+from  	     	KEYWORD2
+to  	     	KEYWORD2
+flags  	     	KEYWORD2
+reTx  	     	KEYWORD2
+rssi  	     	KEYWORD2
+lastRssi  	    KEYWORD2
+temperature  	KEYWORD2
+addFunction   	KEYWORD2
+check         	KEYWORD2
+voltage			KEYWORD2
+lowVoltage    	KEYWORD2
+sleep         	KEYWORD2
+twoToOne      	KEYWORD2
+threeToOne    	KEYWORD2
+oneToTwo      	KEYWORD2
+oneToThree     	KEYWORD2
+
+available		KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+OFF				LITERAL1
+ON				LITERAL1
+TOGGLE			LITERAL1
+PUSH			LITERAL1
+RELEASE			LITERAL1
+PUSHED			LITERAL1
+RELEASED		LITERAL1
+
+POS0			LITERAL1
+POS1			LITERAL1
+POS2			LITERAL1
+POS3			LITERAL1
+POS4			LITERAL1
+TOGGLE_PWM		LITERAL1
+INCREASE_SLOW	LITERAL1
+DECREASE_SLOW	LITERAL1
+INCREASE_FAST	LITERAL1
+DECREASE_FAST	LITERAL1
+
+ALL_NUM			LITERAL1
+
+
+SET_DO              LITERAL1
+SET_PWM             LITERAL1
+SET_LED             LITERAL1
+SET_RELAIS          LITERAL1
+SET_RGB             LITERAL1
+SET_SERVO           LITERAL1
+SEND_IRCODE         LITERAL1
+
+SET_RETRIES         LITERAL1
+SET_TIMEOUT         LITERAL1
+SET_TXPOWER         LITERAL1
+RESET               LITERAL1
+
+GET_DO              LITERAL1
+GET_PWM             LITERAL1
+GET_LED             LITERAL1
+GET_RELAIS          LITERAL1
+GET_DI              LITERAL1
+GET_AI              LITERAL1
+GET_TEMPERATURE     LITERAL1
+GET_HUMIDITY        LITERAL1
+GET_LIGHT           LITERAL1
+GET_DISTANCE        LITERAL1
+
+GET_PING            LITERAL1
+GET_RETRIES         LITERAL1
+GET_TIMEOUT         LITERAL1
+GET_TXPOWER         LITERAL1
+GET_GOOD            LITERAL1
+GET_BAD             LITERAL1
+GET_RETX            LITERAL1
+GET_TOTAL           LITERAL1
+GET_MILLIS          LITERAL1
+
+DO                  LITERAL1
+PWM                 LITERAL1
+DI                  LITERAL1
+AI                  LITERAL1
+LED                 LITERAL1
+RELAIS              LITERAL1
+CONTACT             LITERAL1
+BUTTON              LITERAL1
+VIBRATION           LITERAL1
+
+NOISE               LITERAL1
+MOTION              LITERAL1
+DISTANCE            LITERAL1
+IRCODE_SENT         LITERAL1
+IRCODE_RECEIVED     LITERAL1
+LIGHT               LITERAL1
+
+TEMPERATURE         LITERAL1
+HUMIDITY            LITERAL1
+TEMP_HUM            LITERAL1
+MOISTURE            LITERAL1
+GAS                 LITERAL1
+PRESSURE            LITERAL1
+AIR_PRESSURE        LITERAL1
+ALTITUDE            LITERAL1
+
+WATTHOUR            LITERAL1
+WATTHOURTOTAL       LITERAL1
+WATT                LITERAL1
+WATT_WATTHOUR       LITERAL1
+WATT_WATTHOURTOTAL  LITERAL1
+
+IMPULSES            LITERAL1
+PERCENTAGE          LITERAL1
+
+ONE_DATA_FIELD      LITERAL1
+TWO_DATA_FIELD      LITERAL1
+THREE_DATA_FIELD    LITERAL1
+
+HELLO               LITERAL1
+PING_ANSWER         LITERAL1
+HEARTBEAT           LITERAL1
+LOW_VOLTAGE         LITERAL1
+GOOD                LITERAL1
+BAD                 LITERAL1
+RETX                LITERAL1
+TOTAL               LITERAL1
+RETRIES             LITERAL1
+TIMEOUT             LITERAL1
+TXPOWER             LITERAL1
+MILLIS              LITERAL1
+
+OK                  LITERAL1
+NODE_ERROR          LITERAL1
+TYPE_ERROR          LITERAL1
+NUM_ERROR           LITERAL1
+DATA_ERROR          LITERAL1
+
+MESSAGE_ERROR       LITERAL1
+TYPE_NOT_FOUND      LITERAL1
+DATA_NOT_FOUND      LITERAL1

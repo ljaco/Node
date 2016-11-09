@@ -1,5 +1,5 @@
-#ifndef node_protocol_h
-#define node_protocol_h
+#ifndef node_protocol_simple_h
+#define node_protocol_simple_h
 
 enum type
 {
@@ -11,16 +11,11 @@ enum type
   // User functions
   SET_DO              = 0,
   SET_PWM             = 1,
-  SET_LED             = 2,
-  SET_RELAIS          = 3,
   SET_RGB             = 4,
   SET_SERVO           = 5,
   SEND_IRCODE         = 6,
 
   // Node functions
-  SET_RETRIES         = 56,
-  SET_TIMEOUT         = 57,
-  SET_TXPOWER         = 58,
   RESET               = 59,
 
 
@@ -29,8 +24,6 @@ enum type
   // User functions
   GET_DO              = 60,
   GET_PWM             = 61,
-  GET_LED             = 62,
-  GET_RELAIS          = 63,
   GET_DI              = 64,
   GET_AI              = 65,
   GET_TEMPERATURE     = 66,
@@ -55,17 +48,11 @@ enum type
   PWM                 = 129,
   DI                  = 130,
   AI                  = 131,
-  LED                 = 132,
-  RELAIS              = 133,
-  CONTACT             = 134,
-  BUTTON              = 135,
   VIBRATION           = 136,
 
   NOISE               = 137,
-  MOTION              = 138,
   DISTANCE            = 139,
-  IRCODE_SENT         = 140,
-  IRCODE_RECEIVED     = 141,
+  IRCODE              = 141,
   LIGHT               = 142,
 
   TEMPERATURE         = 143,
